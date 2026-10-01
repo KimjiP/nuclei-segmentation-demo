@@ -1,0 +1,16 @@
+torch
+torchvision
+segmentation-models-pytorch
+onnx
+onnxruntime
+opencv-python
+scipy
+numpy
+pandas
+openpyxl
+matplotlib
+gradio
+fastapi
+uvicorn
+python-multipart
+ipykernel

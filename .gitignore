@@ -1,0 +1,9 @@
+.venv/
+data/
+models/
+__pycache__/
+.ipynb_checkpoints/
+.gradio/
+.DS_Store
+# Renders the blog figures into the website repo, so it stays local.
+make_blog_figures.py
