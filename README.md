@@ -49,7 +49,7 @@ Download `stage1_train.zip` from https://bbbc.broadinstitute.org/BBBC038 and unz
 into `data/stage1_train/`. Then open `nuclei_segmentation.ipynb` and run all cells.
 
 The trained models are not in this repository, so the first run trains both models,
-which takes about 30 minutes on an Apple M4. After that the models are saved in
+which takes about 30 minutes on a laptop with an Apple M-series chip. After that the models are saved in
 `models/`, and running all cells again takes a few minutes. Set `RETRAIN = True` to train
 again.
 

@@ -60,7 +60,7 @@ from inference import draw_nuclei, draw_outlines, for_display, normalize, predic
 DATA = Path("data/stage1_train")
 MODELS = Path("models")
 MODELS.mkdir(exist_ok=True)
-RETRAIN = False  # True trains both models again, about 30 minutes on an Apple M4
+RETRAIN = False  # True trains both models again, about 30 minutes on a laptop with an Apple M-series chip
 EPOCHS, BATCH, CROP = 20, 16, 256
 SEED = 0
 device = torch.device("mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu")
